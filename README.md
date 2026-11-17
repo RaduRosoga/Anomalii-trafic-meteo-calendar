@@ -23,6 +23,4 @@ Rulează `python src/run_cp0_cp3.py`. Se încarcă toate sursele, se aliniază m
 
 18.628 observații senzor–zi, 181 senzori, 105 zile și 41 trăsături active. Meteo UTC este convertit în America/Los_Angeles, apoi H:00 se repetă la H:00–H:55 fără interpolare. Cantitatea de ploaie se însumează o dată pe oră. Fusul traficului este o ipoteză documentată; DST și ultima zi meteo incompletă sunt excluse. Scalare și imputare numai pe train.
 
-PCA vs Nyström RBF+PCA: cinci semințe, k=2/5/10 unde dimensiunea permite, split cronologic. La k=5, MAE auxiliară pentru ziua următoare: T=2,743 mph; TMC=2,680 mph. Nu este precizia detectării anomaliilor. Testul are doar 14 zile reținute și nu conține ploaie; nu se susține cauzalitate sau avantaj robust al fuziunii. Detaliile sunt în protocol.
-
 Weather data by [Open-Meteo.com](https://open-meteo.com/), CC BY 4.0; conversie de fus, repetare și agregare. Drepturile surselor exacte și proveniența sunt documentate în data card; licența codului unei biblioteci nu este licența datelor.
