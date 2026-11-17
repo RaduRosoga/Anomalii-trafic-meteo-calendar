@@ -103,7 +103,7 @@ def main():
     save(df,'CP2','matrice_X_U14.csv')
     save(df[['sensor_id','date','missing_fraction','split','met_rain_mm','cal_holiday']],'CP1','tabel_aliniat_zilnic.csv')
     # Compact wide storage preserves every 5-minute measurement and missingness.
-    np.savez_compressed(ROOT/'CP1_v2/trafic_aliniat_5min.npz',time=raw.index.astype(str).values.astype('U19'),sensor=kept.values.astype('U'),speed_mph=clean.values)
+    np.savez_compressed(ROOT/'CP1/trafic_aliniat_5min.npz',time=raw.index.astype(str).values.astype('U19'),sensor=kept.values.astype('U'),speed_mph=clean.values)
     sample=clean.iloc[:24,:3].stack(dropna=False).rename('speed_mph').reset_index()
     sample.columns=['time_local','sensor_id','speed_mph'];sample=sample.merge(aligned.reset_index(),on='time_local',how='left')
     save(sample,'CP1','exemplu_join_5min.csv')

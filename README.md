@@ -11,7 +11,7 @@ Roșoga Radu-Ștefan · MEDE · **Livrabile CP0–CP3**. CP4–CP6 nu fac parte 
 
 ## Verificare rapidă
 
-Instalează `pip install -r requirements.txt`, apoi deschide `verificare_CP0_CP3.ipynb`. Matricea derivată și rezultatele sunt incluse; nu sunt necesare bazele brute pentru această inspecție. Notebookul și CSV-urile sunt lizibile și direct în GitHub.
+Instalează `pip install -r requirements.txt`, apoi deschide `verificare_CP0_CP3.ipynb`. Notebookul conține cod executabil până la CP3: încărcare și aliniere, construirea matricei, scalare train-only, PCA, reprezentare RBF și calculul metricilor. Implicit recalculează analiza din matricea completă inclusă, fără date brute. Dacă adaugi fișierele sursă descrise mai jos, execută automat și prelucrarea inițială. Cele 6 celule de cod au fost rulate și includ rezultatele. Notebookul și CSV-urile sunt lizibile și direct în GitHub.
 
 ## Recalculare din date brute
 
