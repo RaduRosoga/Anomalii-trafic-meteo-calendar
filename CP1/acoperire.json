@@ -1,0 +1,91 @@
+{
+  "raw_times": 34272,
+  "raw_sensors": 207,
+  "raw_days": 119,
+  "zero_fraction": 0.08109350825676487,
+  "retained_sensors": 181,
+  "daily_rows": 18628,
+  "excluded_sensor_days": 2911,
+  "days_retained": 105,
+  "raw_features": 41,
+  "feature_groups": {
+    "T": [
+      "trf_h00",
+      "trf_h01",
+      "trf_h02",
+      "trf_h03",
+      "trf_h04",
+      "trf_h05",
+      "trf_h06",
+      "trf_h07",
+      "trf_h08",
+      "trf_h09",
+      "trf_h10",
+      "trf_h11",
+      "trf_h12",
+      "trf_h13",
+      "trf_h14",
+      "trf_h15",
+      "trf_h16",
+      "trf_h17",
+      "trf_h18",
+      "trf_h19",
+      "trf_h20",
+      "trf_h21",
+      "trf_h22",
+      "trf_h23",
+      "trf_mean",
+      "trf_std",
+      "trf_min",
+      "trf_congested_fraction"
+    ],
+    "M": [
+      "met_temp_mean",
+      "met_temp_min",
+      "met_temp_max",
+      "met_humidity",
+      "met_wind",
+      "met_gust",
+      "met_rain_mm",
+      "met_rain_hours",
+      "met_cloud",
+      "met_dew"
+    ],
+    "C": [
+      "cal_dow_sin",
+      "cal_dow_cos",
+      "cal_weekend"
+    ]
+  },
+  "train_end": "2012-05-22",
+  "validation_end": "2012-06-09",
+  "split_counts": {
+    "train": 13359,
+    "validation": 2848,
+    "test": 2421
+  },
+  "split_days": {
+    "test": 14,
+    "train": 75,
+    "validation": 16
+  },
+  "weather_missing_5min": 96,
+  "weather_start_utc": "2012-03-01 00:00:00+00:00",
+  "weather_end_utc": "2012-06-27 23:00:00+00:00",
+  "timezone_assumption": "METR-LA naive timestamps interpreted as America/Los_Angeles wall clock; DST day 2012-03-11 excluded",
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "rain_days": 13,
+  "bootstrap_unit": "day; sensor dependence preserved",
+  "source_hashes": {
+    "data\\METR-LA.csv": "5fa498de0c90f5ff9b67e7cf9654bec031a803b320a8eb13d48021b9983bec82",
+    "data\\open-meteo-34.06N118.24W91m.csv": "750bd591b5f57da27557f5387015da63eb6926f45f05b87f25e3a4b5086843c3",
+    "data\\American Holidays 1722 - 2122\\400_Years_of_Generated_Dates_and_Holidays.csv": "3988098f1c69b456f710bc6d81fa0ff1aca6adfd7a5e72b8e01e3f0fa28cf41f",
+    "data\\American Holidays 1722 - 2122\\US Federal Pay and Leave Holidays 2004 to 2100.csv": "180cbdf967a4313664bf11bfb04f80d6342ac4b534da31b03b56a3c7bac764f6"
+  }
+}

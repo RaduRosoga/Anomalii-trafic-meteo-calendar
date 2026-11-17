@@ -1,0 +1,17 @@
+view,method,subperiod,n_days,mae_mph
+T,PCA,prima_jumatate,6,2.58411
+T,PCA,a_doua_jumatate,6,2.901015
+T,RBF-Nystrom-PCA,prima_jumatate,6,3.408959
+T,RBF-Nystrom-PCA,a_doua_jumatate,6,3.715103
+TM,PCA,prima_jumatate,6,2.555009
+TM,PCA,a_doua_jumatate,6,2.913207
+TM,RBF-Nystrom-PCA,prima_jumatate,6,3.337039
+TM,RBF-Nystrom-PCA,a_doua_jumatate,6,3.373867
+TC,PCA,prima_jumatate,6,2.689358
+TC,PCA,a_doua_jumatate,6,2.472159
+TC,RBF-Nystrom-PCA,prima_jumatate,6,3.009916
+TC,RBF-Nystrom-PCA,a_doua_jumatate,6,3.087972
+TMC,PCA,prima_jumatate,6,2.840881
+TMC,PCA,a_doua_jumatate,6,2.518326
+TMC,RBF-Nystrom-PCA,prima_jumatate,6,3.382316
+TMC,RBF-Nystrom-PCA,a_doua_jumatate,6,2.928899

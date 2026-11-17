@@ -1,0 +1,6 @@
+rain_lag_days,spearman,n_days,interpretation
+-2,-0.2552235,91,positive lag = earlier calendar day rain; association only
+-1,-0.1004106,95,positive lag = earlier calendar day rain; association only
+0,0.07590948,105,positive lag = earlier calendar day rain; association only
+1,0.1437703,95,positive lag = earlier calendar day rain; association only
+2,0.159775,91,positive lag = earlier calendar day rain; association only

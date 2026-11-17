@@ -1,0 +1,43 @@
+feature,source,unit,aggregation,used_in_model
+trf_h00,T,mph,hourly mean from 12 traffic slots,True
+trf_h01,T,mph,hourly mean from 12 traffic slots,True
+trf_h02,T,mph,hourly mean from 12 traffic slots,True
+trf_h03,T,mph,hourly mean from 12 traffic slots,True
+trf_h04,T,mph,hourly mean from 12 traffic slots,True
+trf_h05,T,mph,hourly mean from 12 traffic slots,True
+trf_h06,T,mph,hourly mean from 12 traffic slots,True
+trf_h07,T,mph,hourly mean from 12 traffic slots,True
+trf_h08,T,mph,hourly mean from 12 traffic slots,True
+trf_h09,T,mph,hourly mean from 12 traffic slots,True
+trf_h10,T,mph,hourly mean from 12 traffic slots,True
+trf_h11,T,mph,hourly mean from 12 traffic slots,True
+trf_h12,T,mph,hourly mean from 12 traffic slots,True
+trf_h13,T,mph,hourly mean from 12 traffic slots,True
+trf_h14,T,mph,hourly mean from 12 traffic slots,True
+trf_h15,T,mph,hourly mean from 12 traffic slots,True
+trf_h16,T,mph,hourly mean from 12 traffic slots,True
+trf_h17,T,mph,hourly mean from 12 traffic slots,True
+trf_h18,T,mph,hourly mean from 12 traffic slots,True
+trf_h19,T,mph,hourly mean from 12 traffic slots,True
+trf_h20,T,mph,hourly mean from 12 traffic slots,True
+trf_h21,T,mph,hourly mean from 12 traffic slots,True
+trf_h22,T,mph,hourly mean from 12 traffic slots,True
+trf_h23,T,mph,hourly mean from 12 traffic slots,True
+trf_mean,T,mph,daily summary; see datacard,True
+trf_std,T,mph,daily summary; see datacard,True
+trf_min,T,mph,daily summary; see datacard,True
+trf_congested_fraction,T,fraction 0..1,daily summary; see datacard,True
+met_temp_mean,M,degC,daily summary; see datacard,True
+met_temp_min,M,degC,daily summary; see datacard,True
+met_temp_max,M,degC,daily summary; see datacard,True
+met_humidity,M,percent,daily summary; see datacard,True
+met_wind,M,km/h,daily summary; see datacard,True
+met_gust,M,km/h,daily summary; see datacard,True
+met_rain_mm,M,mm (sum of unique hourly labels),daily summary; see datacard,True
+met_rain_hours,M,hour labels with rain>0,daily summary; see datacard,True
+met_cloud,M,percent,daily summary; see datacard,True
+met_dew,M,degC,daily summary; see datacard,True
+cal_dow_sin,C,unitless,daily summary; see datacard,True
+cal_dow_cos,C,unitless,daily summary; see datacard,True
+cal_weekend,C,unitless,daily summary; see datacard,True
+cal_holiday,C,unitless,daily summary; see datacard,False
